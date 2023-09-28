@@ -76,9 +76,9 @@ git checkout main
 # 2. Checar se sua cópia local tem o link do original
 git remote -v
 # 3. Se não, adicione o link do original
-git remote add upstream git@github.com:he4rt/he4rtoberfest-2022.git
+git remote add upstream git@github.com:he4rt/he4rtoberfest-2023.git
 # ou
-git remote add upstream https://github.com/he4rt/he4rtoberfest-2022.git
+git remote add upstream https://github.com/he4rt/he4rtoberfest-2023.git
 # 4. Confirme se o link foi adicionado
 git remote -v
 # 5. Agora você pode fazer o fetch com o repo original, assumindo que o nome do link é 'upstream'
