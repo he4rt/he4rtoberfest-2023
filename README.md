@@ -13,9 +13,7 @@ Sejam todos bem-vindos a terceira edição do He4rtoberfest, evento da He4rt Dev
 
 A ideia da He4rt Developers sempre foi a inclusão de iniciantes na área, por isso, vamos focar em trazer essa inclusão para o Hacktoberfest! Se liga:
 
-O objetivo é trazer exercícios (para entrega de resoluções em formatos de algoritmos), desde o mais simples até o mais completo, demonstrando as possibilidades de resolução das mais variadas formas em diversas linguagens de programassão, assim, disponibilizando uma biblioteca gigantesca de conteúdo para novos desenvolvedores, universitários e estudantes do geral.s
-
-##
+O objetivo é trazer exercícios (para entrega de resoluções em formatos de algoritmos), desde o mais simples até o mais completo, demonstrando as possibilidades de resolução das mais variadas formas em diversas linguagens de programassão, assim, disponibilizando uma biblioteca gigantesca de conteúdo para novos desenvolvedores, universitários e estudantes do geral
 
 <!-- ROADMAP OF PROJECT -->
 
