@@ -8,10 +8,10 @@ Nesse desafio espera-se que você siga o [modelo de desafio](../README.org) e ap
 
 **Input/Args**: 
 - []
-- ["Daniel"]
-- ["Daniel", "Guto"]
-- ["Daniel", "Guto", "Cherry"]
-- ["Daniel", "Guto", "Cherry", "Marlon"]
+- ['Daniel']
+- ['Daniel', 'Guto']
+- ['Daniel', 'Guto', 'Cherry']
+- ['Daniel', 'Guto', 'Cherry', 'Marlon']
 
 **Output**:
 
