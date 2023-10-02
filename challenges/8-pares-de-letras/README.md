@@ -24,3 +24,4 @@ Nesse desafio espera-se que você siga o [modelo de desafio](../README.org) e ap
 ```
 ['he', '4r', 'to', 'be', 'rf', 'es', 't$']
 ```
+> Atenção: as respostas devem ser exatamente como apresentado acima, printando com aspas simples mesmo, facilitando a verificação!
