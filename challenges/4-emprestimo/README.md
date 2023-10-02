@@ -24,12 +24,14 @@ Obs.: Se preocupe apenas para receber os valores e retornar o valor final. Não 
 Nesse desafio espera-se que você siga o [modelo de desafio](../README.org) e aplique-o corretamente. 
 
 **Input/Args**: 
-- 1000.00 10 1
+- 1000.00, 10, 1
 > O cálculo seria feito da seguinte forma: 1000.00 * (1 + (10/100))^1 = 1100.00
-- 5000.00 5 10
+- 5000.00, 5, 10
 > O cálculo seria feito da seguinte forma: 5000.00 * (1 + (5/100))^10 = 8144.47
-- 2500.00 2 5
+- 2500.00, 2, 5
 > O cálculo seria feito da seguinte forma: 2500.00 * (1 + (2/100))^5 = 2760.20
+
+Atenção: sim, o input deve ser feito apenas uma vez com vírgulas, no qual você deverá parsear a entrada!
 
 **Output**:
 
