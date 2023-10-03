@@ -3,3 +3,4 @@ if (string.IsNullOrEmpty(sNum)) throw new ArgumentException("Number is null or e
 bool isValid = int.TryParse(sNum, out int num);
 if (!isValid) throw new ArgumentException("Invalid number");
 Console.WriteLine(Math.Pow(num, 3));
+Console.WriteLine(Math.Pow(num, 3));
