@@ -1,8 +1,3 @@
-* Modelo para submissão
-
-Atenção! Siga o modelo abaixo em *markdown* para realizar o envio do =README.md= de cada um de seus exercícios.
-
-#+BEGIN_SRC markdown
 # Submissão de Exercicio
 
 **Exercicio:** 1 - Cubo Simples
@@ -25,4 +20,3 @@ Use o comando abaixo (OBS: Podem ser passados N argumentos para calculo de cubos
 ```bash
 cc main.c && ./a.out argv1 argv2 argv3
 ```
-#+END_SRC
