@@ -17,12 +17,13 @@ jobs:
       run: |
         ls -R challenges
 
-    - name: Check Challenge-0 completion
+    - name: Check Challenge-0 existence
       run: |
-        CHALLENGE_PATH="challenges/challenge-0"
+        CHALLENGE_PATH="challenges/0-hello-world"
         if [ -d "$CHALLENGE_PATH" ]; then
-          echo "Challenge-0 exists. Checking completion status..."
-          # Add your logic here to check completion
+          echo "Challenge-0 exists. Proceeding..."
+          # Add your logic here to check completion or perform further steps
         else
-          echo "Challenge-0 does not exist."
+          echo "Challenge-0 does not exist. Skipping the workflow."
+          exit 78  # Exiting with a neutral exit code to indicate skipping
         fi
