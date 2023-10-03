@@ -14,7 +14,6 @@ rl.question("input: ", (input) => {
 
     return str === reversedStr;
   }
-
   console.log(palindromo(input));
   rl.close();
 });
