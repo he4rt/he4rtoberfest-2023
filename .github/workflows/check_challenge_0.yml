@@ -16,9 +16,7 @@ jobs:
     - name: Debug Info
       run: |
         ls -R challenges
-        echo "GitHub Workspace: $GITHUB_WORKSPACE"
-        echo "Current Directory: $(pwd)"
-        
+
     - name: Check Challenge-0 completion
       run: |
         CHALLENGE_PATH="challenges/challenge-0"
