@@ -2,15 +2,15 @@
 
 **Exercicio:** 0 - Hello World
 
-**Nickname:** danielhe4rt
+**Nickname:** gabrieldev2001
 
-**Nível Técnico:** - Estudante/Estagiário/Junior/Pleno/Senior -
+**Nível Técnico:** - Junior -
 
-**Empresa:** - Sua Empresa / Nenhuma -
+**Empresa:** - Doity -
 
-**Twitter**: https://twitter.com/danielhe4rt (opcional)
+**Twitter**: https://twitter.com/ebagabee (opcional)
 
-**Dificuldade de Resolução:** - Baixa/Média/Alta -
+**Dificuldade de Resolução:** - Baixa -
 
 **Comentários:** Nesse desafio eu achei que ... (Opcional)
 
@@ -18,5 +18,5 @@
 
 Use o comando abaixo: 
 ```bash
-php helloworld.php argv1 argv2 argv3
+node index.js
 ```
