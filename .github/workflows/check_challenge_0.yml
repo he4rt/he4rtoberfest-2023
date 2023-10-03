@@ -1,6 +1,7 @@
 name: Check Challenge-0 Completion
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'challenges/**'
