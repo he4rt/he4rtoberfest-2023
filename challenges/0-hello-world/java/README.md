@@ -8,7 +8,7 @@
 
 **Empresa:** Juntos Somos Mais
 
-**Twitter**: https://twitter.com/gabrielduetee
+**Twitter**: https://twitter.com/vieiraantuness
 
 **Dificuldade de Resolução:** - Baixa
 
