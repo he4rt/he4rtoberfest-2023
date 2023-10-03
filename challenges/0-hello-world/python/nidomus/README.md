@@ -15,5 +15,5 @@
 **Comentários:** 
 
 **Como rodar o desafio**: 
-
-Use o arquivo "main.py"
+```bash
+python main.py
