@@ -9,7 +9,7 @@ function primo(int $num)
     {
         return 'true';
     } 
-    for ($i = 3; $i <= $num; $i++)
+    for ($i = 2; $i <= $num; $i++)
     {
         if ($num % $i == 0) 
         {
