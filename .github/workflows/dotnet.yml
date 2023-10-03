@@ -1,0 +1,26 @@
+name: Check Challenge-0 Completion
+
+on:
+  push:
+    paths:
+      - 'challenges/**' # Adjust the path as needed
+
+jobs:
+  check-challenge-0:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Check Challenge-0 completion
+      run: |
+        CHALLENGE_PATH="challenges/challenge-0"
+        if [ -d "$CHALLENGE_PATH" ]; then
+          echo "Challenge-0 exists. Checking completion status..."
+          # Add your logic here to check completion, maybe by looking for a specific file or condition.
+          # For example, you could check if a file named "completed.txt" exists in the user's folder.
+          # If completed, you're good; if not, send a message.
+        else
+          echo "Challenge-0 does not exist."
+        fi
