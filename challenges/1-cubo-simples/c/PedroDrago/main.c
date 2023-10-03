@@ -2,7 +2,7 @@
 
 static void ft_putnbr(int n)
 {
-	char	c;
+	char c;
 
 	if (n == -2147483648)
 		write(1, "-2147483648", 11);
@@ -26,32 +26,38 @@ static void ft_putnbr(int n)
 	}
 }
 
-static int	ft_atoi(char *n_str)
+static int ft_atoi(char *n_str)
 {
-	int	number;
-	int	sign;
-	int	count;
+	int number;
+	int sign;
+	int count;
 
 	number = 0;
 	sign = 1;
 	count = 0;
 	while ((n_str[count] >= 9 && n_str[count] <= 13) || (n_str[count] == 32))
 		count++;
+
 	if (n_str[count] == '-')
 		sign = -1;
+
 	if (n_str[count] == '-' || n_str[count] == '+')
 		count++;
+
 	while (n_str[count] >= '0' && n_str[count] <= '9')
 		number = number * 10 + (n_str[count++] - '0');
+
 	return (number * sign);
 }
 
-static int	ft_power(int n, int power)
+static int ft_power(int n, int power)
 {
 	if (power < 0)
 		return (0);
+
 	if (power == 0)
 		return (1);
+
 	else
 		return (n * ft_power(n, power - 1));
 }
