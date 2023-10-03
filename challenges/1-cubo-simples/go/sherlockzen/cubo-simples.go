@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func square(x int) int {
-	return x * x
+	return x * x * x
 }
 
 func main() {
