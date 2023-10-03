@@ -56,7 +56,7 @@ static int	ft_power(int n, int power)
 		return (n * ft_power(n, power - 1));
 }
 
-int	main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int	current_cube;
 	int	count;
