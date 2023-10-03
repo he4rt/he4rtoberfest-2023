@@ -33,7 +33,7 @@ Na lista abaixo estarão todos os exercicios que iremos aceitar nas pull request
 - [9 - Likes](./challenges/9-likes)
 - [10 - Número Menor](./challenges/10-numero-menor)
 
-Caso você queira dar sugestões de desafios, contate algum moderador no [Discord da He4rt](https://discord.gg/he4rt).
+Caso você queira dar sugestões de desafios ou tirar suas dúvidas, por favor, utilize a área de [discussões do repositório](https://github.com/he4rt/he4rtoberfest-2023/discussions) ou contate algum moderador no [Discord da He4rt](https://discord.gg/he4rt).
 
 <!-- CONTRIBUTING -->
 
