@@ -12,7 +12,7 @@
 
 **Dificuldade de Resolução:** - Baixa
 
-**Comentários:** Esse desafio foi dificil por lembrar de tirar as paradas no .gitignore
+**Comentários:** Nesse desafio foi interessante para encontrar a forma mais eficiente de reverter ReadOnlySpan<char> AKA string
 
 **Como rodar o desafio**: 
 
