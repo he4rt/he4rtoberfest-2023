@@ -4,7 +4,6 @@ on:
   push:
     paths:
       - 'challenges/**'
-  workflow_dispatch:
 
 jobs:
   check-challenge-0:
