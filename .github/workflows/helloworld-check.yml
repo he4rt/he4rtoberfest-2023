@@ -44,13 +44,12 @@ jobs:
     - name: Notify Failure
       if: failure()
       run: |
-        GITHUB_TOKEN="${{ secrets.COMMENT_TOKEN  }}"
         REPO="${{ github.repository }}"
         PR_NUMBER="${{ github.event.number }}"
 
         MESSAGE="Salve @$GITHUB_ACTOR, você esqueceu de mandar o desafio 0!"
 
         curl -X POST "https://api.github.com/repos/$REPO/issues/$PR_NUMBER/comments" \
-          -H "Authorization: Bearer $GITHUB_TOKEN" \
+          -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN  }}" \
           -H "Content-Type: application/json" \
           -d "{\"body\": \"$MESSAGE\"}"
