@@ -1,5 +1,5 @@
-const conversaoDeBase = (numero) => {
-    return parseInt(numero).toString(2)
-}
+const numeros = process.argv.slice(2)
 
-console.log(conversaoDeBase(7.1))
+for (let i = 0; i < numeros.length; i++) {
+    console.log(parseInt(numeros[i]).toString(2))
+}
