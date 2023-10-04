@@ -1,0 +1,57 @@
+name: helloworld checker
+
+on:
+  pull_request:
+    paths:
+      - 'challenges/**'
+
+jobs:
+  check-challenge-0:
+    name: Checks if member completed the "00 - Hello World" challenge
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checks challenge 0
+      uses: actions/checkout@v2
+
+    - name: Debug Info
+      run: |
+        ls -R challenges
+
+    - name: Checking
+      run: |
+        CHALLENGE_PATH="challenges/0-hello-world"
+
+        # Loop em cada pasta de lang
+        for LANG_FOLDER in "$CHALLENGE_PATH"/*; do
+          if [ -d "$LANG_FOLDER" ]; then
+            GITHUB_USERNAME="$GITHUB_ACTOR"
+            USER_PATH="$LANG_FOLDER/$GITHUB_USERNAME"
+
+            if [ -d "$USER_PATH" ]; then
+              echo "Challenge-0 completado por $GITHUB_USERNAME na linguagem: $(basename "$LANG_FOLDER")."
+              
+              exit 0  # Sucesso
+            fi
+          fi
+        done
+
+        # Se não entregar falha a action
+        echo "Challenge-0 não foi entregue por $GITHUB_USERNAME em nenhuma linguagem."
+        exit 1
+
+    - name: Notify Failure
+      if: failure()
+      run: |
+        GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}"
+        REPO="${{ github.repository }}"
+        PR_NUMBER="${{ github.event.number }}"
+
+        MESSAGE="Salve @$GITHUB_ACTOR, você esqueceu de mandar o desafio 0!"
+
+        curl -X POST "https://api.github.com/repos/$REPO/issues/$PR_NUMBER/comments" \
+          -H "Authorization: Bearer $GITHUB_TOKEN" \
+          -H "Content-Type: application/json" \
+          -d "{\"body\": \"$MESSAGE\"}"
+
+      
