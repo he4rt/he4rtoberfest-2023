@@ -44,7 +44,7 @@ jobs:
     - name: Notify Failure
       if: failure()
       run: |
-        GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}"
+        GITHUB_TOKEN="${{ secrets.COMMENT_TOKEN  }}"
         REPO="${{ github.repository }}"
         PR_NUMBER="${{ github.event.number }}"
 
