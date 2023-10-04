@@ -18,6 +18,5 @@
 
 Use o comando abaixo: 
 ```bash
-yarn
-yarn dev 
+npx ts-node conversao-de-base.ts
 ```
