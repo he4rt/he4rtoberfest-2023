@@ -2,7 +2,7 @@
 
 **Exercicio:** 0 - Hello World
 
-**Nickname:** saruru
+**Nickname:** sarahanduca
 
 **Nível Técnico:** Junior
 
