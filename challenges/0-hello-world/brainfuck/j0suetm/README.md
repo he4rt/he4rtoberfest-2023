@@ -19,5 +19,5 @@
 Dentro do diretório do projeto, utilize o comando abaixo:
 
 ```bash
-bfc hello-world && ./a.out
+bfc hello-world.bf && ./a.out
 ```
