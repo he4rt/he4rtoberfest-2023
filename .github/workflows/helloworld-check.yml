@@ -25,20 +25,17 @@ jobs:
     - name: Checking
       run: |
         CHALLENGE_PATH="challenges/0-hello-world"
+        GITHUB_USERNAME="$GITHUB_ACTOR"
+        
+        # procura pelo diretório e retorna o caminho
+        USER_PATH=$(find "$CHALLENGE_PATH" -mindepth 2 -maxdepth 2 -type d -iname "$GITHUB_USERNAME")
 
-        # Loop em cada pasta de lang
-        for LANG_FOLDER in "$CHALLENGE_PATH"/*; do
-          if [ -d "$LANG_FOLDER" ]; then
-            GITHUB_USERNAME="$GITHUB_ACTOR"
-            USER_PATH="$LANG_FOLDER/$GITHUB_USERNAME"
-
-            if [ -d "$USER_PATH" ]; then
-              echo "Challenge-0 completado por $GITHUB_USERNAME na linguagem: $(basename "$LANG_FOLDER")."
-              
-              exit 0  # Sucesso
-            fi
-          fi
-        done
+        if [ -n "$USER_PATH" ]; then
+            # extrai o nome da pasta da linguagem
+            LANG_FOLDER=$(basename $(dirname "$USER_PATH"))
+            echo "Challenge-0 completado por $GITHUB_USERNAME na linguagem: $LANG_FOLDER."
+            exit 0 # Sucesso
+        fi
 
         # Se não entregar falha a action
         echo "Challenge-0 não foi entregue por $GITHUB_USERNAME em nenhuma linguagem."
