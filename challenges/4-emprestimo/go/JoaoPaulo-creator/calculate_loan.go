@@ -1,7 +1,6 @@
 package main
 
 import (
-	"errors"
 	"fmt"
 	"math"
 	"os"
@@ -15,8 +14,18 @@ func calculateLoan(loanValue float64, interestRate float64, loanTimeInYears floa
 	rate := interestRate / 100
 	timeInYears := loanTimeInYears
 
+	if value == 0 {
+		fmt.Println("Loan value must be greater than 0")
+		return 0, nil
+	}
+
+	if rate == 0 {
+		fmt.Println("Interest rate must be greater than 0")
+		return 0, nil
+	}
+
 	if timeInYears == 0 {
-		errors.New("Time in Years must be greater then 0")
+		fmt.Println("Time in Years must be greater then 0")
 		return 0, nil
 	}
 
@@ -46,10 +55,6 @@ func main() {
 	}
 
 	years, err := strconv.ParseFloat(strings.Trim(os.Args[3], ","), 64)
-
-	if err != nil || years == 0 {
-		fmt.Println("Years must be greater than", interest)
-	}
 
 	contractedValue, err := calculateLoan(loanValue, interest, years)
 	fmt.Println("Amount value to be paid: ", contractedValue)
