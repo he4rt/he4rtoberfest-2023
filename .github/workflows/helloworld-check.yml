@@ -53,3 +53,16 @@ jobs:
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN  }}" \
           -H "Content-Type: application/json" \
           -d "{\"body\": \"$MESSAGE\"}"
+
+    - name: Add label
+      if: failure()
+      run: |
+        REPO="${{ github.repository }}"
+        PR_NUMBER="${{ github.event.number }}"
+
+        LABEL="Necessita do desafio 0"
+
+        curl -X POST "https://api.github.com/repos/$REPO/issues/$PR_NUMBER/labels" \
+          -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN  }}" \
+          -H "Content-Type: application/json" \
+          -d "{\"labels\": [\"$LABEL\"]}"
