@@ -11,9 +11,9 @@ func main() {
 	fmt.Print("Digite uma palavra e verifique se é um palindromo: ")
 	fmt.Scanln(&word)
 
-	resultado := isPalindrome(word)
+	result := isPalindrome(word)
 	fmt.Println()
-	fmt.Println(resultado)
+	fmt.Println(result)
 }
 
 func isPalindrome(word string) bool {
