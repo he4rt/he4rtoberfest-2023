@@ -25,22 +25,30 @@ func calculateLoan(loanValue float64, interestRate float64, loanTimeInYears floa
 }
 
 func main() {
+
+	if len(os.Args) <= 1 {
+		fmt.Println("No arguments were passed")
+		return
+	}
+
 	loanValue, err := strconv.ParseFloat(strings.Trim(os.Args[1], ","), 64)
 
 	if err != nil {
-		fmt.Println("O argumento", loanValue, " não é um número válido")
+		fmt.Println("Loan value must be greater than", loanValue)
+		return
 	}
 
 	interest, err := strconv.ParseFloat(strings.Trim(os.Args[2], ","), 64)
 
 	if err != nil {
-		fmt.Println("O argumento", interest, " não é um número válido")
+		fmt.Println("Interest value must be greater than", loanValue)
+		return
 	}
 
 	years, err := strconv.ParseFloat(strings.Trim(os.Args[3], ","), 64)
 
 	if err != nil || years == 0 {
-		fmt.Println("Years mut be greater than", interest)
+		fmt.Println("Years must be greater than", interest)
 	}
 
 	contractedValue, err := calculateLoan(loanValue, interest, years)
