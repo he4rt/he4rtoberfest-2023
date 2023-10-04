@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 1-cubo-simples
+**Exercicio:** 3-conversao-de-base.js
 
 **Nickname:** IammCaz
 
@@ -19,5 +19,5 @@
 Use o comando abaixo:
 
 ```bash
-node 1-cubo-simples.js 1 3 9
+node 3-conversao-de-base.js
 ```
