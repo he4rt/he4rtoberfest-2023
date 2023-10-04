@@ -1,7 +1,8 @@
-const palindromo = (palavra) => {
-    palavra = palavra.toLowerCase()
-    return palavra === palavra.split('').reverse().join('')
-}
+const palavras = process.argv.slice(2)
 
-console.log(palindromo("Ama"))
-console.log(palindromo('udimile'))
+for (let i = 0; i < palavras.length; i++) {
+
+    const normal = palavras[i].toLowerCase()
+    const invertido = palavras[i].toLowerCase().split('').reverse().join('')
+    console.log(normal === invertido)
+}
