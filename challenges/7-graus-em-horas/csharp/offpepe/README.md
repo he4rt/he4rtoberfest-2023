@@ -12,7 +12,7 @@
 
 **Dificuldade de Resolução:** - Baixa
 
-**Comentários:** Foi interessante pensar em quantos angulos tem 1h.
+**Comentários:** Foi interessante pensar em quantos graus tem 1h.
 
 **Como rodar o desafio**: 
 
