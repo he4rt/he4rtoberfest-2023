@@ -2,17 +2,17 @@
 
 **Exercicio:** 1 - Cubo Simples
 
-**Nickname:** grevizirsky
+**Nickname:** staiton
 
 **Nível Técnico:** Estudante
 
-**Empresa:** Nenhuma
+**Empresa:** Gerbit Tecnologia
 
-**Twitter**: https://twitter.com/braidiot
+**Twitter**: https://twitter.com/carinhadoti_
 
 **Dificuldade de Resolução:** Baixa
 
-**Comentários:** VAMBOOORA
+**Comentários:** Sem comentários
 
 **Como rodar o desafio**: 
 
