@@ -1,0 +1,1 @@
+fun main() = println(Integer.toBinaryString(readln().toInt()))
