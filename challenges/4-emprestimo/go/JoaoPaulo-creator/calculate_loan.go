@@ -19,11 +19,6 @@ func calculateLoan(loanValue float64, interestRate float64, loanTimeInYears floa
 		return 0, nil
 	}
 
-	if rate == 0 {
-		fmt.Println("Interest rate must be greater than 0")
-		return 0, nil
-	}
-
 	if timeInYears == 0 {
 		fmt.Println("Time in Years must be greater then 0")
 		return 0, nil
@@ -35,8 +30,8 @@ func calculateLoan(loanValue float64, interestRate float64, loanTimeInYears floa
 
 func main() {
 
-	if len(os.Args) <= 1 {
-		fmt.Println("No arguments were passed")
+	if len(os.Args) <= 3 {
+		fmt.Println("No arguments were passed, or less than necessary was passed. If you want the rate to be 0, just pass the argument 0")
 		return
 	}
 
