@@ -57,5 +57,3 @@ jobs:
           -H "Authorization: Bearer $GITHUB_TOKEN" \
           -H "Content-Type: application/json" \
           -d "{\"body\": \"$MESSAGE\"}"
-
-      
