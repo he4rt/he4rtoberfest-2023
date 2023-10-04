@@ -1,5 +1,5 @@
 <?php
-$word=$argv;
+$words=$argv;
 function verifyPalindrome($word)
 {
 
@@ -15,4 +15,4 @@ function verifyPalindrome($word)
   }
 }
 
- verifyPalindrome($word);
+ verifyPalindrome($words);
