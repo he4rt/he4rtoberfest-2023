@@ -1,7 +1,8 @@
 name: helloworld checker
 
 permissions:
-    pull-requests: 'write'
+    pull-requests: write
+    contents: write
 
 on:
   pull_request:
