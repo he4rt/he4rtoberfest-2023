@@ -1,7 +1,7 @@
 name: Check Challenge-0 Completion
 
 on:
-  push:
+  pull_request:
     paths:
       - 'challenges/**'
 
@@ -21,20 +21,20 @@ jobs:
       run: |
         CHALLENGE_PATH="challenges/0-hello-world"
 
-        # Iterate over language folders
+        # Loop em cada pasta de lang
         for LANG_FOLDER in "$CHALLENGE_PATH"/*; do
           if [ -d "$LANG_FOLDER" ]; then
             GITHUB_USERNAME="$GITHUB_ACTOR"
             USER_PATH="$LANG_FOLDER/$GITHUB_USERNAME"
 
             if [ -d "$USER_PATH" ]; then
-              echo "Challenge-0 completed by $GITHUB_USERNAME in language: $(basename "$LANG_FOLDER")."
-              # Add your logic here to perform further steps if needed
-              exit 0  # Exiting with a successful exit code
+              echo "Challenge-0 completado por $GITHUB_USERNAME na linguagem: $(basename "$LANG_FOLDER")."
+              
+              exit 0  # Sucesso
             fi
           fi
         done
 
-        # If no matching user folder is found, exit with a non-successful code
-        echo "Challenge-0 not completed by $GITHUB_USERNAME in any language folder."
+        # Se não entregar falha a action
+        echo "Challenge-0 não foi entregue por $GITHUB_USERNAME em nenhuma linguagem."
         exit 1
