@@ -3,4 +3,9 @@ function verifSeEpalindromo(palavra) {
     return palavra === palavra.split('').reverse().join('')
 }
 
-console.log(verifSeEpalindromo('isadora'))
+const palavra = process.argv[2]
+
+if (palavra){
+    const resultado = verifSeEpalindromo(palavra);
+    console.log(resultado)
+}
