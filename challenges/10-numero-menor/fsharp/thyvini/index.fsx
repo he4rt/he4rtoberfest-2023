@@ -52,4 +52,7 @@ let execute =
     >> proccessResult
     >> printResult
 
-execute()
+try
+    execute()
+with
+| :? ArgumentException -> eprintfn "Argumento Inválido"
