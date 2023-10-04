@@ -57,45 +57,37 @@ jobs:
     #       -H "Authorization: Bearer $GITHUB_TOKEN" \
     #       -H "Content-Type: application/json" \
     #       -d "{\"body\": \"$MESSAGE\"}"
-    
-    - name: 'Download artifact'
-      if: failure()
-      uses: actions/github-script@v5
-      with:
-          script: |
-            let allArtifacts = await github.rest.actions.listWorkflowRunArtifacts({
-               owner: context.repo.owner,
-               repo: context.repo.repo,
-               run_id: context.payload.workflow_run.id,
-            });
-            let matchArtifact = allArtifacts.data.artifacts.filter((artifact) => {
-              return artifact.name == "pr_number"
-            })[0];
-            let download = await github.rest.actions.downloadArtifact({
-               owner: context.repo.owner,
-               repo: context.repo.repo,
-               artifact_id: matchArtifact.id,
-               archive_format: 'zip',
-            });
-            let fs = require('fs');
-            fs.writeFileSync(`${process.env.GITHUB_WORKSPACE}/pr_number.zip`, Buffer.from(download.data));
 
-    - name: 'Unzip artifact'
-      if: failure()
-      run: unzip pr_number.zip
-
-    
     - name: Notify Failure
       if: failure()
-      uses: actions/github-script@v5
+      uses: actions/github-script@v6
       with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            let fs = require('fs');
-            let issue_number = Number(fs.readFileSync('./pr_number'));
+            // Get a list of all issues created by the PR opener
+            // See: https://octokit.github.io/rest.js/#pagination
+            const creator = context.payload.sender.login
+            const opts = github.rest.issues.listForRepo.endpoint.merge({
+              ...context.issue,
+              creator,
+              state: 'all'
+            })
+            const issues = await github.paginate(opts)
+
+            for (const issue of issues) {
+              if (issue.number === context.issue.number) {
+                continue
+              }
+
+              if (issue.pull_request) {
+                return // Creator is already a contributor.
+              }
+            }
+
             await github.rest.issues.createComment({
+              issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: issue_number,
-              body: 'Thank you for the PR!'
-            });
+              body: `**Welcome**, new contributor!
+
+                Please make sure you've read our [contributing guide](CONTRIBUTING.md) and we look forward to reviewing your Pull request shortly ✨`
+            })
