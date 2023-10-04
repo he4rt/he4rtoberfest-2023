@@ -2,7 +2,7 @@
 
 **Exercicio:** 0 - Hello World
 
-**Nickname:** Herco
+**Nickname:** gabrielhpereira
 
 **Nível Técnico:** - Junior
 
