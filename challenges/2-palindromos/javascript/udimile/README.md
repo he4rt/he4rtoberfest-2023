@@ -17,5 +17,5 @@
 Use o comando abaixo:
 
 ```bash
-node 2-palindromos.js
+node 2-palindromos.js Ama arara abacaxi radar
 ```
