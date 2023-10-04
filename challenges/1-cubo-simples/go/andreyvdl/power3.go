@@ -31,7 +31,7 @@ func main() {
 }
 
 func powerOf3(number int64) {
-	var	overflow	int64
+	var overflow int64
 
 	overflow = number * number * number
 	if overflow / number / number != number {
