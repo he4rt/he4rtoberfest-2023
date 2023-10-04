@@ -1,1 +1,1 @@
-console.log('cubos')
+console.log('teste')
