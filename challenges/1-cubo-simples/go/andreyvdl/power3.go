@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	var	scannedNumber	int64
+	var scannedNumber int64
 
 	if len(os.Args) < 2 {
 		fmt.Println("No argument provided")
