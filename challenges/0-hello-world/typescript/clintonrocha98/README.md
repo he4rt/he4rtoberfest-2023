@@ -2,7 +2,7 @@
 
 **Exercicio:** 0 - Hello World
 
-**Nickname:** clintonrocha98
+**Nickname:** Clintonrocha98
 
 **Nível Técnico:** - Junior
 
