@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-func	main() {
+func main() {
 	var	scannedNumber	int64
 
 	if len(os.Args) < 2 {
