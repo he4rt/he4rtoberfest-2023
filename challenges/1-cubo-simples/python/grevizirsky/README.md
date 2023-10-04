@@ -18,5 +18,5 @@
 
 Use o comando abaixo: 
 ```bash
-python cubosimples.py
+python cubosimples.py 2
 ```

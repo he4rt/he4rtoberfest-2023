@@ -1,5 +1,5 @@
 import sys
-number = sys.argv[2]
+number = sys.argv[1]
 
 cube = number ** 3
 
