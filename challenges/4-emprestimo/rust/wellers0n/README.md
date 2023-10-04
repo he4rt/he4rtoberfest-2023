@@ -19,6 +19,6 @@
 Use o comando abaixo:
 
 ```bash
-cargo build
-cargo run 1000.00 10 1
+rustc main.rs 
+./main 1000.00 10 1
 ```
