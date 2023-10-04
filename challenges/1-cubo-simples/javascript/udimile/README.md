@@ -16,5 +16,5 @@
 
 Use o comando abaixo: 
 ```bash
-node 1-cubo-simples.js
+node 1-cubo-simples.js 2 3 4
 ```
