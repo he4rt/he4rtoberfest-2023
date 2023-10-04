@@ -4,7 +4,7 @@
 
 **Nickname:** JoaoPaulo-creator
 
-**Nível Técnico:** - Pleno (QA)
+**Nível Técnico:** - Pleno
 
 **Dificuldade de Resolução:** - Baixa
 
