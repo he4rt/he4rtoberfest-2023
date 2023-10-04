@@ -44,18 +44,32 @@ jobs:
         echo "Challenge-0 não foi entregue por $GITHUB_USERNAME em nenhuma linguagem."
         exit 1
 
+    # - name: Notify Failure
+    #   if: failure()
+    #   run: |
+    #     GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}"
+    #     REPO="${{ github.repository }}"
+    #     PR_NUMBER="${{ github.event.number }}"
+
+    #     MESSAGE="Salve @$GITHUB_ACTOR, você esqueceu de mandar o desafio 0!"
+
+    #     curl -X POST "https://api.github.com/repos/$REPO/issues/$PR_NUMBER/comments" \
+    #       -H "Authorization: Bearer $GITHUB_TOKEN" \
+    #       -H "Content-Type: application/json" \
+    #       -d "{\"body\": \"$MESSAGE\"}"
+
+    
     - name: Notify Failure
-      if: failure()
-      run: |
-        GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}"
-        REPO="${{ github.repository }}"
-        PR_NUMBER="${{ github.event.number }}"
-
-        MESSAGE="Salve @$GITHUB_ACTOR, você esqueceu de mandar o desafio 0!"
-
-        curl -X POST "https://api.github.com/repos/$REPO/issues/$PR_NUMBER/comments" \
-          -H "Authorization: Bearer $GITHUB_TOKEN" \
-          -H "Content-Type: application/json" \
-          -d "{\"body\": \"$MESSAGE\"}"
-
-      
+      if: failute()
+      uses: actions/github-script@v5
+      with: 
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            let fs = require('fs');
+            let issue_number = Number(fs.readFileSync('./pr_number'));
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue_number,
+              body: 'Thank you for the PR!'
+            });
