@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 10 = Numero menor
+**Exercicio:** 10 - Numero menor
 
 **Nickname:** offpepe
 
