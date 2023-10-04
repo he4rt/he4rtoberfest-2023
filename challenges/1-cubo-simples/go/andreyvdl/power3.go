@@ -30,7 +30,7 @@ func main() {
 	powerOf3(number)
 }
 
-func	powerOf3(number int64) {
+func powerOf3(number int64) {
 	var	overflow	int64
 
 	overflow = number * number * number
