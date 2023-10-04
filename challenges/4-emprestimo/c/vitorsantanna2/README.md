@@ -6,7 +6,7 @@
 
 **Nível Técnico:** - Estudante
 
-**Universidade:** - Estudante
+**Universidade:** - 42 Rio
 
 **Twitter**: https://twitter.com/BrazilwithHK
 
