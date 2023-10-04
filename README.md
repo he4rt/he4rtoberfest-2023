@@ -5,7 +5,7 @@
   <h2 align="center">He4rtoberfest 2023 (COMEÇA NO DIA 02/10/2023 AS 23:00)</h2>
 </p>
 
- <!-- ABOUT THE PROJECT -->
+<!-- ABOUT THE PROJECT -->
 
 ## Sobre o Projeto
 
