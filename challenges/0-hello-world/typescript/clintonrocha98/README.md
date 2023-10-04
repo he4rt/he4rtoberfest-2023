@@ -16,7 +16,7 @@
 
 **Como rodar o desafio**: 
 
-Use o comando abaixo: 
+Dentro do diretório do projeto, utilize o comando abaixo:
 ```bash
 npx ts-node hello-world.ts
 ```
