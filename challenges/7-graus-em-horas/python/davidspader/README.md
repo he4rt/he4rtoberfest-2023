@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 7 - Ordenar listas
+**Exercicio:** 7 - Graus em horas
 
 **Nickname:** davidspader
 
