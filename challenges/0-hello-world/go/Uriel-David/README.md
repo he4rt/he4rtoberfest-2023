@@ -2,7 +2,7 @@
 
 **Exercicio:** 0 - Hello World
 
-**Nickname:** Zinr4x
+**Nickname:** Uriel-David (Zinr4x)
 
 **Nível Técnico:** - Senior
 
