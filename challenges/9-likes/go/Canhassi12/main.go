@@ -9,7 +9,7 @@ func main() {
 	names := os.Args
 	names = names[1:]
 
-	if len(names) <= 1 {
+	if len(names) <= 0 {
 		fmt.Println("Ninguém curtiu isso")
 		os.Exit(1)
 	}
@@ -20,12 +20,12 @@ func main() {
 	}
 
 	if len(names) == 2 {
-		fmt.Printf("%s, %s curtiram isso\n", names[0], names[1])
+		fmt.Printf("%s, e %s curtiram isso\n", names[0], names[1])
 		os.Exit(1)
 	}
 	
 	if len(names) == 3 {
-		fmt.Printf("%s, %s, %s curtiram isso\n", names[0], names[1], names[2])
+		fmt.Printf("%s, %s, e %s curtiram isso\n", names[0], names[1], names[2])
 		os.Exit(1)
 	}
 
