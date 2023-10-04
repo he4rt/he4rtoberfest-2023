@@ -59,6 +59,7 @@ jobs:
     #       -d "{\"body\": \"$MESSAGE\"}"
     
     - name: 'Download artifact'
+      if: failure()
       uses: actions/github-script@v5
       with:
           script: |
@@ -80,13 +81,14 @@ jobs:
             fs.writeFileSync(`${process.env.GITHUB_WORKSPACE}/pr_number.zip`, Buffer.from(download.data));
 
     - name: 'Unzip artifact'
+      if: failure()
       run: unzip pr_number.zip
 
     
     - name: Notify Failure
       if: failure()
       uses: actions/github-script@v5
-      with: 
+      with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             let fs = require('fs');
