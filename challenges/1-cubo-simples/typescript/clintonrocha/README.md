@@ -10,14 +10,13 @@
 
 **Twitter**
 
-**Dificuldade de Resolução:** Média
+**Dificuldade de Resolução:** Facil
 
-**Comentários:** primeira vez que fiz algo pelo terminal usando ts e node
+**Comentários:** 
 
 **Como rodar o desafio**: 
 
 Use o comando abaixo: 
 ```bash
-yarn
-yarn dev 
+npx ts-node cubo-simples.ts
 ```
