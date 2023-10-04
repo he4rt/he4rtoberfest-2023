@@ -1,10 +1,10 @@
 <!-- Title -->
 
 <p align="center">
-  <img src=".github/he4rtdevs.png" alt="He4rt Devs" />
+  <img src=".github/he4rtdevs-logo.png" alt="He4rt Devs" width="60%" />
   <h2 align="center">He4rtoberfest 2023 (COMEÇA NO DIA 02/10/2023 AS 23:00)</h2>
 </p>
-    
+
  <!-- ABOUT THE PROJECT -->
 
 ## Sobre o Projeto
@@ -13,7 +13,7 @@ Sejam todos bem-vindos a terceira edição do He4rtoberfest, evento da He4rt Dev
 
 A ideia da He4rt Developers sempre foi a inclusão de iniciantes na área, por isso, vamos focar em trazer essa inclusão para o Hacktoberfest! Se liga:
 
-O objetivo é trazer exercícios (para entrega de resoluções em formatos de algoritmos), desde o mais simples até o mais completo, demonstrando as possibilidades de resolução das mais variadas formas em diversas linguagens de programassão, assim, disponibilizando uma biblioteca gigantesca de conteúdo para novos desenvolvedores, universitários e estudantes do geral. Para se inscrever e começar a contribuir não se esqueça de acessar o [portal oficial da MLH (Major League Hacking)](https://events.mlh.io/events/10423-he4rtoberfest-2023).
+O objetivo é trazer exercícios (para entrega de resoluções em formatos de algoritmos), desde o mais simples até o mais completo, demonstrando as possibilidades de resolução das mais variadas formas em diversas linguagens de programação, assim, disponibilizando uma biblioteca gigantesca de conteúdo para novos desenvolvedores, universitários e estudantes do geral. Para se inscrever e começar a contribuir não se esqueça de acessar o [portal oficial da MLH (Major League Hacking)](https://events.mlh.io/events/10423-he4rtoberfest-2023).
 
 <!-- ROADMAP OF PROJECT -->
 
@@ -33,7 +33,7 @@ Na lista abaixo estarão todos os exercicios que iremos aceitar nas pull request
 - [9 - Likes](./challenges/9-likes)
 - [10 - Número Menor](./challenges/10-numero-menor)
 
-Caso você queira dar sugestões de desafios, contate algum moderador no [Discord da He4rt](https://discord.gg/he4rt).
+Caso você queira dar sugestões de desafios ou tirar suas dúvidas, por favor, utilize a área de [discussões do repositório](https://github.com/he4rt/he4rtoberfest-2023/discussions) ou contate algum moderador no [Discord da He4rt](https://discord.gg/he4rt).
 
 <!-- CONTRIBUTING -->
 
