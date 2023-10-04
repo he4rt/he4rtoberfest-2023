@@ -28,7 +28,7 @@ jobs:
             USER_PATH="$LANG_FOLDER/$GITHUB_USERNAME"
 
             if [ -d "$USER_PATH" ]; then
-              echo "Challenge-0 completed by $GITHUB_USERNAME in $(basename "$LANG_FOLDER")."
+              echo "Challenge-0 completed by $GITHUB_USERNAME in language: $(basename "$LANG_FOLDER")."
               # Add your logic here to perform further steps if needed
               exit 0  # Exiting with a successful exit code
             fi
