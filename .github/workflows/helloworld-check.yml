@@ -33,7 +33,7 @@ jobs:
         if [ -n "$USER_PATH" ]; then
             # extrai o nome da pasta da linguagem
             LANG_FOLDER=$(basename $(dirname "$USER_PATH"))
-            echo "Challenge-0 completado por $GITHUB_USERNAME na linguagem: $(basename "$LANG_FOLDER")."
+            echo "Challenge-0 completado por $GITHUB_USERNAME na linguagem: $LANG_FOLDER."
             exit 0 # Sucesso
         fi
 
