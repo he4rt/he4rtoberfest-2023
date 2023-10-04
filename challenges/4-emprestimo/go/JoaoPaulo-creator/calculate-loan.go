@@ -1,7 +1,6 @@
 package main
 
 import (
-	"errors"
 	"fmt"
 	"math"
 	"os"
@@ -17,7 +16,7 @@ func calculateLoan(loanValue float64, interestRate float64, loanTimeInYears floa
 	timeInYears := loanTimeInYears
 
 	if timeInYears == 0 {
-		errors.New("Time in Years must be greater then 0")
+		fmt.Println("Time in Years must be greater then 0")
 		return 0, nil
 	}
 
