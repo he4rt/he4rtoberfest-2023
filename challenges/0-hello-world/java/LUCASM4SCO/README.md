@@ -2,7 +2,7 @@
 
 **Exercicio:** 0 - Hello World
 
-**Nickname:** Lucasm4sco
+**Nickname:** [Lucasm4sco](https://github.com/Lucasm4sco)
 
 **Nível Técnico:** Estudante
 
