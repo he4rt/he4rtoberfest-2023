@@ -12,8 +12,7 @@ func main() {
 
 	valor_final := calcular_emprestimo(emprestimo, juros, tempo)
 
-	message := fmt.Sprintf("%.2f", valor_final)
-	fmt.Println(message)
+	fmt.Println(valor_final)
 }
 
 func get_values() (emprestimo float64, juros_porcentagem float64, tempo float64) {
@@ -34,6 +33,6 @@ func parse_values(values []string) []string {
 	return values
 }
 
-func calcular_emprestimo(valor_inicial float64, juros float64, tempo float64) float64 {
-	return valor_inicial * math.Pow(1+juros, tempo)
+func calcular_emprestimo(valor_inicial float64, juros float64, tempo float64) int {
+	return int(valor_inicial * math.Pow(1+juros, tempo))
 }
