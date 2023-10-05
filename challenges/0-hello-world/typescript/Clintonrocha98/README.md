@@ -2,21 +2,21 @@
 
 **Exercicio:** 0 - Hello World
 
-**Nickname:** clintonrocha
+**Nickname:** Clintonrocha98
 
 **Nível Técnico:** - Junior
 
-**Empresa:** Nenhuma
+**Empresa:** - 
 
 **Twitter**: 
 
-**Dificuldade de Resolução:** Baixa
+**Dificuldade de Resolução:** - Baixa
 
 **Comentários:** 
 
 **Como rodar o desafio**: 
 
-Use o comando abaixo: 
+Dentro do diretório do projeto, utilize o comando abaixo: 
 ```bash
 npx ts-node hello-world.ts
 ```

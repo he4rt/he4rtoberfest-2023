@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 1 - Cubo Simples
 
 **Nickname:** willy-r
 
@@ -12,11 +12,11 @@
 
 **Dificuldade de Resolução:** Baixa
 
-**Comentários:** Poderia ter sido mais fácil se eu tivesse usado Java 21 😢
+**Comentários:** Suavezito (se fosse em Java 21, etc...)
 
 **Como rodar o desafio**: 
 
 Dentro do diretório do projeto, utilize o comando abaixo: 
 ```bash
-java HelloWorld.java
+java SimpleCube.java 2
 ```
