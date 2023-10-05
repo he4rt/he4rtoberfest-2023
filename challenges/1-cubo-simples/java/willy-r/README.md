@@ -12,11 +12,11 @@
 
 **Dificuldade de Resolução:** Baixa
 
-**Comentários:** Esse desafio foi dificil por XPTO
+**Comentários:** Suavezito (se fosse em Java 21, etc...)
 
 **Como rodar o desafio**: 
 
 Dentro do diretório do projeto, utilize o comando abaixo: 
 ```bash
-ruby main.rb
+java SimpleCube.java 2
 ```
