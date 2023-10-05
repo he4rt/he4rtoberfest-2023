@@ -19,5 +19,5 @@ Descobri a existência de _destructuring assignment_
 
 Use o comando abaixo: 
 ```bash
-node index.js  2500.00, 2, 5
+node index.js  "2500.00, 2, 5"
 ```
