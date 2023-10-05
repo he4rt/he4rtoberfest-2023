@@ -16,6 +16,12 @@
 
 **Como rodar o desafio**: 
 
+- Biblioteca obrigatória - para instalá-la:
+
+````bash
+pip install -r requirements.txt
+````
+
 Use o comando abaixo: 
 - Windows 
 ```bash
@@ -25,3 +31,5 @@ python.exe .\main.py
 ```bash
 python3 main.py
 ```
+
+após isso só digitar na caixa da palavra, clicar Inserir e depois botão Verificar e o resultado será dado abaixo. 
