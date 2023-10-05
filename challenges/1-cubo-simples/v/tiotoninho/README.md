@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Cubo Simples
+**Exercicio:** 1 - Cubo Simples
 
 **Nickname:** TioToninho
 
