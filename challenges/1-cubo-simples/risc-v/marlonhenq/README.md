@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 1 - Cubo Simples
 
 **Nickname:** marlonhenq
 
@@ -12,7 +12,7 @@
 
 **Dificuldade de Resolução:** - Baixa
 
-**Comentários:** Quebrei a maldição do helloworld
+**Comentários:** Recebi o valor por meio de chamada do sistema (ecall), realizei a serie de multiplicações que representam a elevação ao cubo e por fim chamei o sistema novamente para realizar o print
 
 **Como rodar o desafio**:
 
