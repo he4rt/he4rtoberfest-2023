@@ -28,4 +28,5 @@ int main() {
         reversed = c + reversed;
     }
     cout << convertBoolean(in == reversed) << endl;
+    return 0;
 }
