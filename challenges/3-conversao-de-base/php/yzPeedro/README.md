@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 2 - Palíndromos
+**Exercicio:** 3 - Conversão de Base
 
 **Nickname:** yzPeedro
 
