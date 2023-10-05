@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 1 - Cubo Simples
 
 **Nickname:** pinheir0g
 
@@ -12,17 +12,16 @@
 
 **Dificuldade de Resolução:** - Baixa
 
-**Comentários:** Eu achei que a existência desse desafio é essencial.
+**Comentários:** Mais um, daleeee!
 
 **Como rodar o desafio**: 
 
 Use o comando abaixo: 
 ```bash
-python3 hello_world.py
+python3 cubo_simples.py
 ```
-
 ou
 
 ```bash
-python hello_world.py
+python cubo_simples.py
 ```
