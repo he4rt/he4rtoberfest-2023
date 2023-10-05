@@ -5,15 +5,13 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-const toTheCube = (numbers) => {
-  for (const number of numbers) {
-    const cube = Math.pow(number, 3);
-    console.log(`The cube of ${number} is ${cube}.`);
-  }
+const toTheCube = (input) => {
+  const cube = Math.pow(input, 3);
+  return cube;
 };
 
-rl.question('Enter numbers separated by a space: ', (input) => {
-  const numbers = input.split(' ').map(Number);
-  toTheCube(numbers);
+rl.question('', (input) => {
+  const cube = toTheCube(input);
+  console.log(cube);
   rl.close();
 });
