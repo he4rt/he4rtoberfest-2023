@@ -17,5 +17,5 @@
 Dentro do diretório do projeto, utilize o comando abaixo:
 
 ```bash
-ts-node 9-likes.ts Gabriel João Lucas Matheus
+ts-node 9-likes.ts Gabriel,João,Lucas,Matheus
 ```

@@ -4,7 +4,7 @@ interface phraseProps {
   [key: number]: string
 }
 
-const args: Array<string> = process.argv.slice(2)
+const args = process.argv[2].split(' ')
 
 const phrases: phraseProps = {
     0: `Ninguem curtiu isso.`,
