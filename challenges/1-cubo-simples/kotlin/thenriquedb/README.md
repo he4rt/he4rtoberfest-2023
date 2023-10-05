@@ -15,5 +15,5 @@ Para executar o aplicativo é necessário já ter o ambiente Java configurado em
 
 Use o comando abaixo:
 ```bash
-kotlinc .\hello-world.kt -include-runtime -d hello.jar; java -jar hello.jar
+kotlinc .\cubo.kt -include-runtime -d cubo.jar; java -jar cubo.jar
 ```
