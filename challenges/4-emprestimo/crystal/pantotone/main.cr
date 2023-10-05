@@ -6,4 +6,4 @@ final = initial_value * (
     (1 + (fee_percentage / 100)) ** years
 )
 
-puts final
+puts final.round(2)
