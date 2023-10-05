@@ -1,19 +1,17 @@
-type phraseProps = {
-    0: string,
-    1: string,
-    2: string,
-    3: string,
-    4: string,
-  }
-  
-const input: Array<string> = ["Gustavo"]
+import process from 'process'
+
+interface phraseProps {
+  [key: number]: string
+}
+
+const args: Array<string> = process.argv.slice(2)
 
 const phrases: phraseProps = {
     0: `Ninguem curtiu isso.`,
-    1: `${input[0]} curtiu isso.`,
-    2: `${input[0]} e ${input[1]} curtiram isso.`,
-    3: `${input[0]}, ${input[1]} e ${input[2]} curtiram isso.`,
-    4: `${input[0]}, ${input[1]} e outras ${input.length - 2} curtiram isso`
+    1: `${args[0]} curtiu isso.`,
+    2: `${args[0]} e ${args[1]} curtiram isso.`,
+    3: `${args[0]}, ${args[1]} e ${args[2]} curtiram isso.`,
+    4: `${args[0]}, ${args[1]} e outras ${args.length - 2} pessoas curtiram isso`
 }
 
-console.log(phrases[input.length <= 4 ? input.length : 4])
+console.log(phrases[args.length <= 4 ? args.length : 4])
