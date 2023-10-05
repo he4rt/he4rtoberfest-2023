@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 2 - Palíndromos
 
 **Nickname:** willy-r
 
@@ -12,11 +12,11 @@
 
 **Dificuldade de Resolução:** Baixa
 
-**Comentários:** Poderia ter sido mais fácil se eu tivesse usado Java 21 😢
+**Comentários:** Esse foi de boa, tentei usar o modo clássico usando `for`
 
 **Como rodar o desafio**: 
 
 Dentro do diretório do projeto, utilize o comando abaixo: 
 ```bash
-java HelloWorld.java
+java Palindromes.java arara
 ```
