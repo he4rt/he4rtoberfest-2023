@@ -4,7 +4,14 @@ if (! isset($argv[1])) {
     die("Por favor informe o parâmetro de entrada");
 }
 
-$string = str_replace(['[', ']'], '', $argv[1]);
+$strArr = '';
+$i = 1;
+while (isset($argv[$i])) {
+    $strArr .= $argv[$i];
+    $i++;
+}
+
+$string = str_replace(['[', ']'], '', $strArr);
 $likes = array_filter(
     array_map(fn(string $name) => str_replace("'", '', trim($name)),
     explode(',', $string))
