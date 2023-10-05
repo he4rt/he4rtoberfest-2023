@@ -17,6 +17,11 @@ if (preg_match('/^(.)\1*$/u', $argv[1])) {
     exit('-1');
 }
 
+// Verifica se os digitos são sequenciais
+if (str_contains('0123456789012345789', $argv[1])) {
+    exit('-1');
+}
+
 $numero = $argv[1];
 $primeirosDigitos = substr($numero, 0, -2);
 $ultimosDigitos = str_split(substr($numero, -2));
@@ -26,4 +31,10 @@ $ultimosDigitos = ($ultimosDigitos[0] == $menorDigito)
     ? "{$ultimosDigitos[0]}{$ultimosDigitos[1]}"
     : "{$ultimosDigitos[1]}{$ultimosDigitos[0]}";
 
-echo "{$primeirosDigitos}{$ultimosDigitos}";
+$response = "{$primeirosDigitos}{$ultimosDigitos}";
+
+if(str_starts_with(strrev($response), '0')) {
+    exit('-1');
+}
+
+echo $response;
