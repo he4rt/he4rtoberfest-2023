@@ -12,13 +12,12 @@ if($argv[1] < 10) {
     exit('-1');
 }
 
-$numero = $argv[1];
-
 // Verifica se todos os digitos são iguais
-if (preg_match('/^(.)\1*$/u', $numero)) {
+if (preg_match('/^(.)\1*$/u', $argv[1])) {
     exit('-1');
 }
 
+$numero = $argv[1];
 $primeirosDigitos = substr($numero, 0, -2);
 $ultimosDigitos = str_split(substr($numero, -2));
 
