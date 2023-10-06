@@ -18,5 +18,5 @@
 
 Dentro do diretório do projeto, utilize o comando abaixo:
 ```bash
-java BaseConverstion.java 7
+java BaseConversion.java 7
 ```
