@@ -10,7 +10,7 @@ public class OrdenadorDeLetras {
                 break;
             }
 
-            char[] caracteres = inputUsuario.toCharArray();
+            char[] caracteres = inputUsuario.toLowerCase().toCharArray();
             Arrays.sort(caracteres);
             JOptionPane.showMessageDialog(null, new String(caracteres));
         }
