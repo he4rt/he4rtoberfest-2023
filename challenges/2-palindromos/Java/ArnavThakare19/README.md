@@ -2,7 +2,7 @@
 
 **Exercise:** 2 - Palindromes
 
-**Nickname**: ArnavThakare19
+**Nickname**: Arnavthakare19
 
 **Company** : None
 

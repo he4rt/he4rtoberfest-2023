@@ -2,7 +2,7 @@
 
 **Exercicio:** 0 - Hello World
 
-**Nickname:** ArnavThakare19
+**Nickname:** Arnavthakare19
 
 **Nível Técnico:** - College Student
 
