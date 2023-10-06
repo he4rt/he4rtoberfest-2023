@@ -14,5 +14,5 @@
 
 Use o comando abaixo: 
 ```bash
-ruby main.rb
+ruby hello.rb
 ```
