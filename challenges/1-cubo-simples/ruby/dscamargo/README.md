@@ -13,7 +13,7 @@
 **Dificuldade de Resolução:** - Baixa
 
 **Comentários:**
-Utilizado `ARGV` para receber argumentos na cli, estou foi transformado o valor recebido para inteiro, utilizando `to_i` e elevado ao cubo `** 3`
+Foi utilizado `ARGV` para receber argumentos na cli, após, foi transformado o valor recebido para inteiro, utilizando `to_i` e elevado ao cubo `** 3`
 
 **Como rodar o desafio**: 
 
