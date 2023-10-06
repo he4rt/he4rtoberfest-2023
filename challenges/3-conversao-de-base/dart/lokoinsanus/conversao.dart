@@ -4,9 +4,9 @@ main(List<String> args) {
 
 convertBinary(int number) {
   List<String> binary = [];
-  while (number != 0) {
+  do {
     binary.insert(0, (number % 2).toString());
     number ~/= 2;
-  }
+  } while (number != 0);
   return binary.join('');
 }
