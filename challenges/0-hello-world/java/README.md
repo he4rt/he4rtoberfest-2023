@@ -2,17 +2,15 @@
 
 **Exercicio:** 0 - Hello World
 
-**Nickname:** ericantunes
+**Nickname:** Arnavthakare19
 
-**Nível Técnico:** - Junior
+**Nível Técnico:** - College Student
 
-**Empresa:** Juntos Somos Mais
+**Empresa:** None
 
-**Twitter**: https://twitter.com/vieiraantuness
+**Dificuldade de Resolução:** - Low
 
-**Dificuldade de Resolução:** - Baixa
-
-**Comentários:** He4rt 💜
+**Comentários:** None
 
 **Como rodar o desafio**:
 
@@ -21,6 +19,6 @@ Use o comando abaixo:
 Na pasta respectiva
 
 ```bash
-javac HelloWorld.java
-java HelloWorld
+javac Hello.java
+java Hello
 ```
