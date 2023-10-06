@@ -1,0 +1,14 @@
+E:\Nova pasta\he4rtoberfest-2023\challenges\0-hello-world\csharp\laisbrito1\HelloWorld\bin\Debug\net6.0\HelloWorld.exe
+E:\Nova pasta\he4rtoberfest-2023\challenges\0-hello-world\csharp\laisbrito1\HelloWorld\bin\Debug\net6.0\HelloWorld.deps.json
+E:\Nova pasta\he4rtoberfest-2023\challenges\0-hello-world\csharp\laisbrito1\HelloWorld\bin\Debug\net6.0\HelloWorld.runtimeconfig.json
+E:\Nova pasta\he4rtoberfest-2023\challenges\0-hello-world\csharp\laisbrito1\HelloWorld\bin\Debug\net6.0\HelloWorld.dll
+E:\Nova pasta\he4rtoberfest-2023\challenges\0-hello-world\csharp\laisbrito1\HelloWorld\bin\Debug\net6.0\HelloWorld.pdb
+E:\Nova pasta\he4rtoberfest-2023\challenges\0-hello-world\csharp\laisbrito1\HelloWorld\obj\Debug\net6.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+E:\Nova pasta\he4rtoberfest-2023\challenges\0-hello-world\csharp\laisbrito1\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfoInputs.cache
+E:\Nova pasta\he4rtoberfest-2023\challenges\0-hello-world\csharp\laisbrito1\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfo.cs
+E:\Nova pasta\he4rtoberfest-2023\challenges\0-hello-world\csharp\laisbrito1\HelloWorld\obj\Debug\net6.0\HelloWorld.csproj.CoreCompileInputs.cache
+E:\Nova pasta\he4rtoberfest-2023\challenges\0-hello-world\csharp\laisbrito1\HelloWorld\obj\Debug\net6.0\HelloWorld.dll
+E:\Nova pasta\he4rtoberfest-2023\challenges\0-hello-world\csharp\laisbrito1\HelloWorld\obj\Debug\net6.0\refint\HelloWorld.dll
+E:\Nova pasta\he4rtoberfest-2023\challenges\0-hello-world\csharp\laisbrito1\HelloWorld\obj\Debug\net6.0\HelloWorld.pdb
+E:\Nova pasta\he4rtoberfest-2023\challenges\0-hello-world\csharp\laisbrito1\HelloWorld\obj\Debug\net6.0\HelloWorld.genruntimeconfig.cache
+E:\Nova pasta\he4rtoberfest-2023\challenges\0-hello-world\csharp\laisbrito1\HelloWorld\obj\Debug\net6.0\ref\HelloWorld.dll
