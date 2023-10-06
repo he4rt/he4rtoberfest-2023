@@ -15,6 +15,6 @@
 Use os comandos: 
 
 ```bash
-javac ConversorDeGraus.java
-java ConversorDeGraus
+javac DivisorDeStrings.java
+java DivisorDeStrings
 ```
