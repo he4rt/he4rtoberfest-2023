@@ -13,10 +13,10 @@ public class palindrome {
         String str = sc.nextLine();
         String rev = reversal(str);
         if (rev.equalsIgnoreCase(str)) {
-            System.out.println("Palindrome");
+            System.out.println("True");
         }
         else
-        System.out.println("Non Palindrome");
+        System.out.println("False");
         sc.close();
     }
 }
