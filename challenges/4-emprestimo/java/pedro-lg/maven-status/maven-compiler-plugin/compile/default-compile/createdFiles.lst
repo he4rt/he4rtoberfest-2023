@@ -1,0 +1,7 @@
+modelo/Cliente.class
+servico/RealizaEmprestimoService.class
+view/EmprestimoBancario.class
+view/TaxaJuros.class
+Principal.class
+modelo/OrdemEmprestimo.class
+view/Emprestimo.class
