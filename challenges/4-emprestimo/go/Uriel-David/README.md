@@ -10,7 +10,7 @@
 
 **Twitter**: https://twitter.com/UriZinrax (@UriZinrax)
 
-**Dificuldade de Resolução:** - Baixa
+**Dificuldade de Resolução:** - Baixa/Medio
 
 **Comentários:** GOneles
 
@@ -18,5 +18,5 @@
 
 Dentro do diretório do projeto, utilize o comando abaixo: 
 ```bash
-go run conversao.go
+go run emprestimo.go
 ```
