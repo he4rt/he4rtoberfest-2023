@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 5 - Ordenar Letras
+**Exercicio:** 6 - Números Primos
 
 **Nickname:** willy-r
 
@@ -10,13 +10,13 @@
 
 **Twitter**: https://twitter.com/lliw_r
 
-**Dificuldade de Resolução:** Baixa
+**Dificuldade de Resolução:** Média
 
-**Comentários:** Suave.
+**Comentários:** Essa foi um pouco mais complicada mas dando uma pesquisada ficou mais de boa ir montando o algorítimo.
 
 **Como rodar o desafio**:
 
 Dentro do diretório do projeto, utilize o comando abaixo:
 ```bash
-java OrderLetters.java abacaxi
+java PrimeNumbers.java 2
 ```
