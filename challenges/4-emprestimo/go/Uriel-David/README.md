@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 1 - Cubo Simples
+**Exercicio:** 4 - Empréstimo
 
 **Nickname:** Uriel-David (Zinr4x)
 
@@ -18,5 +18,5 @@
 
 Dentro do diretório do projeto, utilize o comando abaixo: 
 ```bash
-go run cubo.go
+go run conversao.go
 ```
