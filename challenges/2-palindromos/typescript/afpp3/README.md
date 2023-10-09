@@ -6,7 +6,7 @@
 
 **Nível Técnico:** Junior/Pleno
 
-**Empresa:** Somos Uni
+**Empresa:** UNI
 
 **Twitter** https://twitter.com/afelipp3
 
