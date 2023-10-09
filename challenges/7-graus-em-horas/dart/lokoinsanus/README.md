@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 7 - Graus em Horas
 
 **Nickname:** lokoinsanus
 
@@ -18,7 +18,7 @@
 
 Para compilar o código use:
 ```bash
-dart hello.dart 60
+dart graus.dart 60
 ```
 
 **Input/Args**: 
