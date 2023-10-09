@@ -1,4 +1,15 @@
-entries = ARGV
+def parseArrayFromString(string)
+    bracketless = string.sub('[', "").sub(']', "")
+
+    list = bracketless.split(',').map do |item|
+        trimmed = item.strip
+        trimmed[1, trimmed.size - 2] if trimmed.size > 1
+    end
+
+    list.select! {|item| item.is_a?(String)}
+
+    return list
+end
 
 def processLikes(entries)
     case entries.size
@@ -15,4 +26,5 @@ def processLikes(entries)
     end
 end
 
+entries = parseArrayFromString(ARGV[0])
 puts processLikes(entries)
