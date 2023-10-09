@@ -10,7 +10,7 @@
 
 **Twitter**:
 
-**Dificuldade de Resolução:** Baixa
+**Dificuldade de Resolução:** Media
 
 **Comentários:**
 

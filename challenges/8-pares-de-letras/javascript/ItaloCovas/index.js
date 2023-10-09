@@ -5,16 +5,16 @@ if (!stringArgs) {
   return;
 }
 
-const test = stringArgs.split("", stringArgs.length);
+const array = stringArgs.split("", stringArgs.length);
 
-for (let i = 0; i < test.length; i++) {
-  if ((test[i] + test[i + 1]).includes("undefined")) {
-    test[i] = (test[i] + test[i + 1]).replace("undefined", "$");
-    console.log(test);
+for (let i = 0; i < array.length; i++) {
+  if ((array[i] + array[i + 1]).includes("undefined")) {
+    array[i] = (array[i] + array[i + 1]).replace("undefined", "$");
+    console.log(array);
     return;
   }
-  test[i] = test[i] + test[i + 1];
-  test.splice(i + 1, 1);
+  array[i] = array[i] + array[i + 1];
+  array.splice(i + 1, 1);
 }
 
-console.log(test);
+console.log(array);
