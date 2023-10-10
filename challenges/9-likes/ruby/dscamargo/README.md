@@ -1,4 +1,4 @@
-# Submissão de Exercicio
+s# Submissão de Exercicio
 
 **Exercicio:** 9 - Likes
 
@@ -17,6 +17,7 @@
 **Como rodar o desafio**: 
 
 Use o comando abaixo: 
+
 ```bash
 ruby main.rb
 ```
