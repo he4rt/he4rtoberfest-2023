@@ -1,0 +1,28 @@
+* Modelo para submissão
+
+Atenção! Siga o modelo abaixo em *markdown* para realizar o envio do =README.md= de cada um de seus exercícios.
+
+#+BEGIN_SRC markdown
+# Submissão de Exercicio
+
+**Exercicio:** 3 - Conversão de base
+
+**Nickname:** marcosferreira17
+
+**Nível Técnico:** - Junior -
+
+**Empresa:** - GFT Group -
+
+**Twitter**: https://twitter.com/ferre1ra_marc0s (opcional)
+
+**Dificuldade de Resolução:** - Baixa -
+
+**Comentários:** 
+
+**Como rodar o desafio**: 
+
+Use o comando abaixo: 
+```bash
+go run conversao-de-base.go
+```
+#+END_SRC
