@@ -1,20 +1,20 @@
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+
 public class Emprestimo {
-    private double valorEmprestimo;
+    private BigDecimal valorEmprestimo;
     private int periodoAnual;
     private double taxaJuros;
 
-    public Emprestimo(double valorEmprestimo, int periodoAnual, int taxaJuros){
-        this.valorEmprestimo = valorEmprestimo;
+    public Emprestimo(String valorEmprestimo, int periodoAnual, int taxaJuros){
+        this.valorEmprestimo = new BigDecimal(valorEmprestimo);
         this.periodoAnual = periodoAnual;
         this.taxaJuros = (double) taxaJuros / 100;
-
-        System.out.println(taxaJuros);
     }
 
-    public double calcularEmprestimo(){
-        System.out.println(valorEmprestimo + " - " + periodoAnual + " - " + taxaJuros);
-        double resultado = valorEmprestimo * Math.pow((1 + taxaJuros), periodoAnual);
-        return resultado;
+    public BigDecimal calcularEmprestimo(){
+        BigDecimal juros = BigDecimal.ONE.add(BigDecimal.valueOf(taxaJuros)).pow(periodoAnual);
+        BigDecimal resultado = valorEmprestimo.multiply(juros);
+        return resultado.setScale(2, RoundingMode.HALF_UP);
     }
-
 }
