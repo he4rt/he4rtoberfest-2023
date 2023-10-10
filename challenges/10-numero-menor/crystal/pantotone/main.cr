@@ -9,9 +9,10 @@ def smallestNumber(original : Int32)
     finalNumber : Int32 = -1
 
     numbers.each_permutation do |generatedNumber|
+        next if generatedNumber[0] == '0'
         next if generatedNumber.size != numbers.size
-        convertedNumber : Int32 = generatedNumber.join().to_i
 
+        convertedNumber : Int32 = generatedNumber.join().to_i
         next if convertedNumber >= original
 
         if convertedNumber > finalNumber
