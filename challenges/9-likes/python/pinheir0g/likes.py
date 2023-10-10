@@ -1,18 +1,18 @@
+from sys import argv
+
 def likes(lista_nomes):
     numero_likes = len(lista_nomes)
-    if numero_likes == 0:
+    if numero_likes <= 0:
         return "Ninguém curtiu isso."
     elif numero_likes == 1:
-        return f"{lista[0]} curtiu isso."
+        return f"{lista_nomes[0]} curtiu isso."
     elif numero_likes == 2:
-        return f"{lista[0]} e {lista[1]} curtiram isso."
+        return f"{lista_nomes[0]} e {lista_nomes[1]} curtiram isso."
     elif numero_likes == 3:
-        return f'{lista[0]}, {lista[1]} e {lista[2]} curtiram isso.'
+        return f'{lista_nomes[0]}, {lista_nomes[1]} e {lista_nomes[2]} curtiram isso.'
     else:
-       return f"{', '.join(lista[:2])} e outras {numero_likes - 2} pessoas curtiram isso"
+       return f"{lista_nomes[0]}, {lista_nomes[1]} e outras {numero_likes - 2} pessoas curtiram isso"
     
-lista = input('Digite uma lista de nomes: ').split(', ')
-
-nomes = [nome for nome in lista if nome.strip()]
-
+nomes = argv[1:]
+    
 print(likes(nomes))
