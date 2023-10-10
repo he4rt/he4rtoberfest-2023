@@ -17,6 +17,7 @@
 **Como rodar o desafio**: 
 
 Use o comando abaixo: 
+
 ```bash
 ruby main.rb
 ```
