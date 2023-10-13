@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 1 - Cubo Simples
+**Exercicio:** 8 - Pares de Letras
 
 **Nickname:** Uriel-David (Zinr4x)
 
@@ -10,7 +10,7 @@
 
 **Twitter**: https://twitter.com/UriZinrax (@UriZinrax)
 
-**Dificuldade de Resolução:** - Baixa
+**Dificuldade de Resolução:** - Baixo
 
 **Comentários:** GOneles
 
@@ -18,5 +18,5 @@
 
 Dentro do diretório do projeto, utilize o comando abaixo: 
 ```bash
-go run cubo.go
+go run pares.go
 ```

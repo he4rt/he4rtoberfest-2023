@@ -8,7 +8,7 @@
 
 **Empresa:** - Comuniverse / Software Engineer -
 
-**Twitter**: O Elon Musk baniu minha conta sem motivo (opcional) 
+**Twitter**: https://twitter.com/UriZinrax (@UriZinrax)
 
 **Dificuldade de Resolução:** - Baixa
 
