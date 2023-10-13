@@ -2,7 +2,7 @@
 
 **Exercicio:** 1 - Cubo Simples
 
-**Nickname:** Lucasm4sco
+**Nickname:** [Lucasm4sco](https://github.com/Lucasm4sco)
 
 **Nível Técnico:** - Estudante -
 

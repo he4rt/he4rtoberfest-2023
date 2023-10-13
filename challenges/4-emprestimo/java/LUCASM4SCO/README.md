@@ -1,6 +1,6 @@
 # Submissão de Exercicio
 
-**Exercicio:** 0 - Hello World
+**Exercicio:** 4 - Emprestimo
 
 **Nickname:** [Lucasm4sco](https://github.com/Lucasm4sco)
 
@@ -15,6 +15,6 @@
 Use os comandos: 
 
 ```bash
-javac HelloWorld.java
-java HelloWorld
+javac Principal.java
+java Principal
 ```
