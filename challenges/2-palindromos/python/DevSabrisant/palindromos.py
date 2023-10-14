@@ -1,8 +1,7 @@
-import sys
+import sys 
 
-palavra(str)
-if
-(palavra=palavra::-1))
-palavra=True
-else
-palavra=False
+nome = sys.argv[1]
+if nome == nome[::-1]:
+    print(True)
+else:
+     print(False)
